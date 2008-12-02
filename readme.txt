@@ -33,6 +33,7 @@ Tangofy by Demetris Kikizas and op111.net is published under the GNU General Pub
 3.  Activate Tangofy in *Dashboard > Plugins*
 
 ==  Changelog ==
+.
 
 =   0.0.6   [2008-12-02] =
 +   Added cog (applications-system.png, Tango) to sprite, to sync with r10008.
