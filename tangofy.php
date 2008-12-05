@@ -4,7 +4,7 @@
 
 Plugin Name:    Tangofy
 Plugin URI:     http://op111.net/p65
-Description:    Tangofies 16x16 icons and hides 32x32 icons in the administration area of WordPress 2.7.
+Description:    Adds better icons to the admin menu of WordPress 2.7:  Select from the included icon sets (Fugue, Silk, Tango, Tango 2) or add your own!
 Version:        0.1.0
 Author:         Demetris
 Author URI:     http://op111.net/
