@@ -38,7 +38,7 @@ Tangofy by Demetris Kikizas and Josh Wood is published under the GNU General Pub
 3.  Activate Tangofy in *Dashboard > Plugins*
 4.  Go to *Dashboard > Settings > Tangofy* and have a look at the options!
 
-Thank you for your interest in Tangofy!  [Your feedback is appreciated!](http://op111.net/p65 "Homepage of Tangofy at op111.net"] — δκ
+Thank you for your interest in Tangofy!  [Your feedback is appreciated!](http://op111.net/p65 "Homepage of Tangofy at op111.net") — δκ
 
 ==  Changelog ==
 .
