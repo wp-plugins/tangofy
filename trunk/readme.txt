@@ -11,7 +11,7 @@ Tangofy adds better icons to the admin menu of WordPress 2.7:  Select from the i
 
 Tangofy does three simple things:
 
-*   Replaces the 16×16 menu icons in the administration area of WordPress 2.7 with better icon sets:  either an included set —1 Fugue set, 1 Silk set, 2 Tango sets— or your own!
+*   Replaces the 16×16 menu icons in the administration area of WordPress 2.7 with better icon sets:  either one of the included sets —one Fugue set, one Silk set, and two Tango sets— or your own set!
 *   Dispenses with Black & White icons.  All link states have full colour.
 *   Hides the 32×32 icons.
 
