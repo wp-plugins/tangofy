@@ -5,7 +5,7 @@ REQUIRES AT LEAST: 2.7
 TESTED UP TO: 2.7
 STABLE TAG: trunk
 
-Tangofy adds better icons to the admin menu of WordPress 2.7:  Select from the include icon sets (Fugue, Silk, Tango, Tango 2) or add your own!
+Tangofy adds better icons to the admin menu of WordPress 2.7:  Select from the included icon sets (Fugue, Silk, Tango, Tango 2) or add your own!
 
 ==  Description ==
 
