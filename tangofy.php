@@ -4,8 +4,8 @@
 
 Plugin Name:    Tangofy
 Plugin URI:     http://op111.net/p65
-Description:    Adds better icons to the admin menu of WordPress 2.7:  Select from the included icon sets (Fugue, Silk, Tango, Tango 2) or add your own!
-Version:        0.1.0
+Description:    Better icons for the admin menu of WordPress 2.7:  select an included icon set (Fugue, Silk, Tango, Tango 2) or add your own!
+Version:        0.1.1
 Author:         Demetris
 Author URI:     http://op111.net/
 
@@ -47,37 +47,57 @@ DONE
 
 */
 
-/* Set default on first activation. */
-function tangofy_actv(){
-	add_option('tangofy_iconset', 'tango', '', 'yes');
+/* Activation */
+function tangofy_actv() {
+	/* Create our option, set it to something. */
+	add_option( 'tangofy_iconset', 'tango', '', 'yes' );
 }
-/* Clean up when turned off. */
-function tangofy_dactv(){
-	delete_option('tangofy_iconset');
+
+/* Deactivation */
+function tangofy_dactv() {
+	delete_option( 'tangofy_iconset' );
 }
-/* Every time through */
-function tangofy_init(){
-	/* Admin options menu item and options page */
-	if(function_exists('add_options_page')){
+
+/* Create admin menu and options page. */
+function tangofy_admin_ui() {
+	if ( function_exists('add_options_page') ) {
 		/* add_options_page(page_title, menu_title, access_level/capability, file, [function]) */
 		add_options_page( __( 'Tangofy Options', 'tangofy' ), __( 'Tangofy', 'tangofy' ), 'manage_options', 'tangofy/tangofy-ui.php', '' );
 	}
 }
+
+/* Link to options page in active plugins list. */
+function tangofy_add_plugin_action_link($action_links, $file) {
+	static $plugin_self;
+	
+	if ( empty($plugin_self) ) {
+		$plugin_self = plugin_basename(__FILE__);
+	}
+	if ( $file == $plugin_self ) {
+		$link = '<a href="' . admin_url('options-general.php?page=tangofy/tangofy-ui.php') . '">' . __('Settings') . '</a>';
+		array_unshift( $action_links, $link );
+	}
+	return $action_links;
+}
+
 /* Create a stylesheet URI, enqueue, and emit it. */
-function tangofy_icons(){
+function tangofy_admin_head() {
 	$ss = plugins_url() . '/tangofy/css/' . get_option('tangofy_iconset') . '.css';
 	wp_enqueue_style( 'tangofy_style', $ss, '', '', 'all' );
 	wp_print_styles( 'tangofy_style' );
 }
+
 /* Inform WP about activate/deactivate functions. */
 register_activation_hook( __FILE__, 'tangofy_actv' );
 register_deactivation_hook( __FILE__, 'tangofy_dactv' );
 /* For localization: load_plugin_textdomain(Name, xxx, /path/to/pofiles) */
 load_plugin_textdomain( 'tangofy', false, '/tangofy/l10n' );
-/* Arrange for the replacement stylesheet function to run. */
-if(is_admin()){
-	add_action('admin_head', 'tangofy_icons');
-}
 /* Register the admin menu item/page function to be called. */
-add_action( 'admin_menu', 'tangofy_init' );
+add_action( 'admin_menu', 'tangofy_admin_ui' );
+/* Arrange for settings link to be inserted in plugin screen list. */
+add_filter( 'plugin_action_links', 'tangofy_add_plugin_action_link', 10, 2 );
+/* Arrange for the replacement stylesheet function to run. */
+if ( is_admin() ) {
+	add_action( 'admin_head', 'tangofy_admin_head' );
+}
 ?>

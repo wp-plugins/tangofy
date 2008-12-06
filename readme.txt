@@ -5,17 +5,17 @@ REQUIRES AT LEAST: 2.7
 TESTED UP TO: 2.7
 STABLE TAG: trunk
 
-Adds better icons to the admin menu of WordPress 2.7:  Select from the included icon sets (Fugue, Silk, Tango, Tango 2) or add your own!
+Better icons for the admin menu of WordPress 2.7:  select an included icon set (Fugue, Silk, Tango, Tango 2) or add your own!
 
 ==  Description ==
 
 Tangofy does three simple things:
 
-*   Replaces the 16×16 menu icons in the administration area of WordPress 2.7 with better icon sets:  either one of the included sets —one Fugue set, one Silk set, and two Tango sets— or your own set!
+*   Replaces the 16×16 menu icons in the administration area of WordPress 2.7 with better icon sets:  either one of the included sets —one Fugue set, one Silk set, two Tango sets— or your own set!
 *   Dispenses with Black & White icons.  All link states have full colour.
 *   Hides the 32×32 icons.
 
-The Tango sets are put together with icons from four projects:  GIMP, GNOME, Pidgin, and Tango.  The Silk set uses Silk Icons.  The Fugue set uses Fugue Icons:
+The Tango sets use icons from four projects:  GIMP, GNOME, Pidgin, and Tango.  The Silk set uses Silk Icons.  The Fugue set uses Fugue Icons.
 
 *   [ftp.gnome.org/pub/GNOME/desktop](http://ftp.gnome.org/pub/GNOME/desktop/)
 *   [gimp.org](http://gimp.org/)
@@ -42,6 +42,13 @@ Thank you for your interest in Tangofy!  [Your feedback is appreciated!](http://
 
 ==  Changelog ==
 .
+
+=   0.1.1   [2008-12-06] =
++   Wordpressified code style, Josh ([joshix.com](http://joshix.com/)).
++   Added link to Settings to plugins list in Manage Plugins, Josh.
++   Shrunk Dashboard icon and Links icon in Tango 1.
++   Changed Posts icon in Tango 1 (from calendar back to text editor).
++   Changed Media icon in Tango 2.
 
 =   0.1.0   [2008-12-05] =
 +   Added options page, contributed by Josh Wood ([joshix.com](http://joshix.com/)).
