@@ -45,7 +45,7 @@ Thank you for your interest in Tangofy!  [Your feedback is appreciated!](http://
 
 =   0.1.1   [2008-12-06] =
 +   Wordpressified code style, Josh ([joshix.com](http://joshix.com/)).
-+   Added link to Settings to plugins list in Manage Plugins, Josh.
++   Added link to Settings in Manage Plugins page, Josh.
 +   Shrunk Dashboard icon and Links icon in Tango 1.
 +   Changed Posts icon in Tango 1 (from calendar back to text editor).
 +   Changed Media icon in Tango 2.
