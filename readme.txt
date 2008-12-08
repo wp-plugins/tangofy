@@ -43,6 +43,12 @@ Thank you for your interest in Tangofy!  [Your feedback is appreciated!](http://
 ==  Changelog ==
 .
 
+=   0.1.2   [2008-12-08] =
++   Changed Pages icon in Tango 1.
++   Changed Appearance, Comments, Pages, and Users icons in Tango 2.
++   Changed Links and Media icons in Silk.
++   Changed Media icon in Fugue.
+
 =   0.1.1   [2008-12-06] =
 +   Wordpressified code style, Josh ([joshix.com](http://joshix.com/)).
 +   Added link to Settings in Manage Plugins page, Josh.
