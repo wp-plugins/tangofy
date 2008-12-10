@@ -43,6 +43,12 @@ Thank you for your interest in Tangofy!  [Your feedback is appreciated!](http://
 ==  Changelog ==
 .
 
+=   0.1.3   [2008-12-10] =
++   Removed some redundant code, Josh ([joshix.com](http://joshix.com/)).
++   Changed Comments icon in Tango sets (GNOME help-faq modified).
++   Added List/Excerpt icons to Tango 1, Tango 2, Silk.
++   Started sprites with 32x32 icons for Tango sets.
+
 =   0.1.2   [2008-12-08] =
 +   Changed Pages icon in Tango 1.
 +   Changed Appearance, Comments, Pages, and Users icons in Tango 2.
@@ -71,7 +77,7 @@ Thank you for your interest in Tangofy!  [Your feedback is appreciated!](http://
 +   Replaced accessories-text-editor (Tango) with accessories-text-editor (GNOME) for Posts.
  
 =   0.0.3   [2008-11-29] =
-+   Trying scissors/triangle (GNOME) for Appearance, and ext icon (Firefox) for Plugins.
++   Added scissors/triangle (GNOME) for Appearance, puzzle piece (Firefox) for Plugins.
 +   Synced with WP CSS to reflect [r9957](http://trac.wordpress.org/changeset/9957).
 +   Thanks to Josh Wood ([joshix.com](http://joshix.com/)) for feedback and suggestions.
  

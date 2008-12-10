@@ -52,34 +52,49 @@
 #adminmenu #menu-appearance:hover div.wp-menu-image,
         #adminmenu #menu-appearance.wp-has-current-submenu div.wp-menu-image {
     background: transparent url("../images/menu-silk.png") no-repeat scroll -1px -1px;
-}
+    }
 #adminmenu #menu-plugins div.wp-menu-image {
     background: transparent url("../images/menu-silk.png") no-repeat scroll -181px -33px;
-}
+    }
 #adminmenu #menu-plugins:hover div.wp-menu-image,
         #adminmenu #menu-plugins.wp-has-current-submenu div.wp-menu-image {
     background: transparent url("../images/menu-silk.png") no-repeat scroll -181px -1px;
-}
+    }
 #adminmenu #menu-users div.wp-menu-image {
     background: transparent url("../images/menu-silk.png") no-repeat scroll -301px -33px;
-}
+    }
 #adminmenu #menu-users:hover div.wp-menu-image,
         #adminmenu #menu-users.wp-has-current-submenu div.wp-menu-image {
     background: transparent url("../images/menu-silk.png") no-repeat scroll -301px -1px;
     }
 #adminmenu #menu-tools div.wp-menu-image {
     background: transparent url("../images/menu-silk.png") no-repeat scroll -211px -33px;
-}
+    }
 #adminmenu #menu-tools:hover div.wp-menu-image,
         #adminmenu #menu-tools.wp-has-current-submenu div.wp-menu-image {
     background: transparent url("../images/menu-silk.png") no-repeat scroll -211px -1px;
-}
+    }
 #adminmenu #menu-settings div.wp-menu-image {
     background: transparent url("../images/menu-silk.png") no-repeat scroll -241px -33px;
     }
 #adminmenu #menu-settings:hover div.wp-menu-image,
         #adminmenu #menu-settings.wp-has-current-submenu div.wp-menu-image {
     background: transparent url("../images/menu-silk.png") no-repeat scroll -241px -1px;
+    }
+
+/*  POSTS.  LIST/EXCERPTS VIEW */
+    
+.view-switch #view-switch-list {
+    background: transparent url(../images/list-silk.png) no-repeat 0 0;
+    }
+.view-switch #view-switch-list.current {
+    background: transparent url(../images/list-silk.png) no-repeat -40px 0;
+    }
+.view-switch #view-switch-excerpt {
+    background: transparent url(../images/list-silk.png) no-repeat -20px 0;
+    }
+.view-switch #view-switch-excerpt.current {
+    background: transparent url(../images/list-silk.png) no-repeat -60px 0;
     }
 
 /*  HIDE LARGE ICONS */

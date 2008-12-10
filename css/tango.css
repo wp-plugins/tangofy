@@ -82,6 +82,21 @@
     background: transparent url("../images/menu-tango.png") no-repeat scroll -241px -1px;
     }
 
+/*  POSTS.  LIST/EXCERPTS VIEW */
+    
+.view-switch #view-switch-list {
+    background: transparent url(../images/list-tango.png) no-repeat 0 0;
+    }
+.view-switch #view-switch-list.current {
+    background: transparent url(../images/list-tango.png) no-repeat -40px 0;
+    }
+.view-switch #view-switch-excerpt {
+    background: transparent url(../images/list-tango.png) no-repeat -20px 0;
+    }
+.view-switch #view-switch-excerpt.current {
+    background: transparent url(../images/list-tango.png) no-repeat -60px 0;
+    }
+
 /*  HIDE LARGE ICONS */
 
 .icon32 {
