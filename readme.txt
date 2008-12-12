@@ -11,11 +11,11 @@ Better icons for the admin menu of WordPress 2.7:  select an included icon set (
 
 Tangofy does three simple things:
 
-*   Replaces the 16×16 menu icons in the administration area of WordPress 2.7 with better icon sets:  either one of the included sets —one Fugue set, one Silk set, two Tango sets— or your own set!
+*   Replaces the 16×16 menu icons in the administration area of WordPress 2.7 with better icons!  Choose among the included sets —1 Fugue set, 1 Silk set, 2 Tango sets— or use your own!
 *   Dispenses with Black & White icons.  All link states have full colour.
 *   Hides the 32×32 icons.
 
-The Tango sets use icons from four projects:  GIMP, GNOME, Pidgin, and Tango.  The Silk set uses Silk Icons.  The Fugue set uses Fugue Icons.
+The Tango sets use icons from four projects:  GIMP, GNOME, Pidgin and Tango.  Silk uses Silk Icons.  Fugue uses Fugue Icons.
 
 *   [ftp.gnome.org/pub/GNOME/desktop](http://ftp.gnome.org/pub/GNOME/desktop/)
 *   [gimp.org](http://gimp.org/)
@@ -43,11 +43,14 @@ Thank you for your interest in Tangofy!  [Your feedback is appreciated!](http://
 ==  Changelog ==
 .
 
+=   0.1.4   [2008-12-12] =
++   Added variations with 32×32 icons to Tango sets.
+
 =   0.1.3   [2008-12-10] =
 +   Removed some redundant code, Josh ([joshix.com](http://joshix.com/)).
 +   Changed Comments icon in Tango sets (GNOME help-faq modified).
 +   Added List/Excerpt icons to Tango 1, Tango 2, Silk.
-+   Started sprites with 32x32 icons for Tango sets.
++   Started sprites with 32×32 icons for Tango sets.
 
 =   0.1.2   [2008-12-08] =
 +   Changed Pages icon in Tango 1.

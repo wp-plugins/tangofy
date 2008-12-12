@@ -4,8 +4,8 @@
 
 Plugin Name:    Tangofy
 Plugin URI:     http://op111.net/p65
-Description:    Better icons for the admin menu of WordPress 2.7:  select an included icon set (Fugue, Silk, Tango, Tango 2) or add your own!
-Version:        0.1.3
+Description:    Better icons for the admin menu of WordPress 2.7:  Select an included icon set (Fugue, Silk, Tango, Tango 2) or add your own!
+Version:        0.1.4
 Author:         Demetris
 Author URI:     http://op111.net/
 
