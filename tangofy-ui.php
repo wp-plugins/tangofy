@@ -12,7 +12,7 @@ if ( !current_user_can('manage_options') ) {
 ?>
 
 <div class="wrap">
-	<h2><?php _e('Tangofy', 'tangofy') ?></h2>
+	<h2><?php _e('Tangofy!', 'tangofy') ?></h2>
 	<form name="tangofy_options_update" method="post" action="<?php echo $_SERVER['REQUEST_URI'] ?>">
 <?php wp_nonce_field('tangofy_save_options'); echo "\n"; ?>
 		<h3><?php _e('Tangofy Options', 'tangofy') ?></h3>

@@ -5,7 +5,7 @@
 Plugin Name:    Tangofy
 Plugin URI:     http://op111.net/p65
 Description:    Better icons for the admin menu of WordPress 2.7:  Select an included icon set (Fugue, Silk, Tango, Tango 2) or add your own!
-Version:        0.1.4
+Version:        0.1.5
 Author:         Demetris
 Author URI:     http://op111.net/
 
@@ -62,7 +62,7 @@ function tangofy_dactv() {
 function tangofy_admin_ui() {
 	if ( function_exists('add_options_page') ) {
 		/* add_options_page(page_title, menu_title, access_level/capability, file, [function]) */
-		add_options_page( __( 'Tangofy Options', 'tangofy' ), __( 'Tangofy', 'tangofy' ), 'manage_options', 'tangofy/tangofy-ui.php', '' );
+		add_options_page( __( 'Tangofy Options', 'tangofy' ), __( 'Tangofy!', 'tangofy' ), 'manage_options', 'tangofy/tangofy-ui.php', '' );
 	}
 }
 
@@ -87,7 +87,7 @@ function tangofy_admin_head() {
 register_activation_hook( __FILE__, 'tangofy_actv' );
 register_deactivation_hook( __FILE__, 'tangofy_dactv' );
 /* For localization: load_plugin_textdomain(Name, xxx, /path/to/pofiles) */
-load_plugin_textdomain( 'tangofy', false, '/tangofy/l10n' );
+load_plugin_textdomain( 'tangofy', false, '/tangofy/languages' );
 /* Register the admin menu item/page function to be called. */
 add_action( 'admin_menu', 'tangofy_admin_ui' );
 /* Arrange for settings link to be inserted in plugin screen list. */

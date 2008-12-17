@@ -11,11 +11,13 @@ Better icons for the admin menu of WordPress 2.7:  select an included icon set (
 
 Tangofy does three simple things:
 
-*   Replaces the 16×16 menu icons in the administration area of WordPress 2.7 with better icons!  Choose among the included sets —1 Fugue set, 1 Silk set, 2 Tango sets— or use your own!
+*   Replaces the 16×16 menu icons in the administration area of WordPress 2.7 with better icons!  Choose an included set —1 Fugue set, 1 Silk set, 2 Tango sets— or use your own icons!
 *   Dispenses with Black & White icons.  All link states have full colour.
 *   Hides the 32×32 icons.
 
-The Tango sets use icons from four projects:  GIMP, GNOME, Pidgin and Tango.  Silk uses Silk Icons.  Fugue uses Fugue Icons.
+And it can speak any language you ask it to!  It already speaks English and Greek.  
+
+The Tango icon sets use icons from four projects:  GIMP, GNOME, Pidgin and Tango.  Silk uses Silk Icons.  Fugue uses Fugue Icons.
 
 *   [ftp.gnome.org/pub/GNOME/desktop](http://ftp.gnome.org/pub/GNOME/desktop/)
 *   [gimp.org](http://gimp.org/)
@@ -36,12 +38,27 @@ Tangofy by Demetris Kikizas and Josh Wood is published under the GNU General Pub
 1.  Download the ZIP archive
 2.  Extract the `tangofy` folder and upload it to `wp-contents/plugins`
 3.  Activate Tangofy in *Dashboard > Plugins*
-4.  Go to *Dashboard > Settings > Tangofy* and have a look at the options!
+4.  Go to *Dashboard > Settings > Tangofy* to have a look at the options!
 
 Thank you for your interest in Tangofy!  [Your feedback is appreciated!](http://op111.net/p65 "Homepage of Tangofy at op111.net") — δκ
 
+== Frequently Asked Questions ==
+
+= What does “Tangofy” mean? =
+
+“To tangofy sth”, usually an application, means to make new icons for it, or to add icons to it, that follow the guidelines of the Tango Desktop Project.
+
+The first versions of Tangofy —v. 0.0.0 to v. 0.0.6— did just that:  They included one icon set that tangofied the admin menu of WordPress 2.7.  Hence the name.
+
 ==  Changelog ==
 .
+=   0.1.5   [2008-12-17] =
++   Added POT file for localization (see directory “languages”).
++   Added Greek localization, Josh ([joshix.com](http://joshix.com/)).
++   Changed Pages icons in Tango 2.
++   Changed 32×32 Users icon in Tango 2.
++   Changed 32×32 Settings icon in Tango.
++   Added FAQ.
 
 =   0.1.4   [2008-12-12] =
 +   Added variations with 32×32 icons to Tango sets.
