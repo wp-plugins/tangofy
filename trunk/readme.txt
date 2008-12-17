@@ -52,7 +52,7 @@ Thank you for your interest in Tangofy!  [Your feedback is appreciated!](http://
 .
 =   0.1.5   [2008-12-17] =
 +   Added POT file for localization (see directory “languages”).
-+   Added Greek localization, Josh ([joshix.com](http://joshix.com/)).
++   Added Greek localization.
 +   Changed Pages icons in Tango 2.
 +   Changed 32×32 Users icon in Tango 2.
 +   Changed 32×32 Settings icon in Tango.
