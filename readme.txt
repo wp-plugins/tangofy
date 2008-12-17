@@ -46,7 +46,7 @@ Thank you for your interest in Tangofy!  [Your feedback is appreciated!](http://
 
 = What does “Tangofy” mean? =
 
-“To tangofy sth”, usually an application, means to make new icons for it, or to add icons to it, that follow the guidelines of the Tango Desktop Project.  The first versions of Tangofy —v. 0.0.0 to v. 0.0.6— did just that:  One icon set that tangofied the admin menu of WordPress 2.7.  Hence the name.
+“To tangofy sth”, usually an application, means to make new icons for it, or to add icons to it, that follow the guidelines of the Tango Desktop Project.  The first versions of Tangofy —0.0.0 to 0.0.6— were just that:  One icon set that tangofied the admin menu of WordPress 2.7.  Hence the name.
 
 ==  Changelog ==
 .
