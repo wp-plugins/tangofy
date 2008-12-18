@@ -13,7 +13,7 @@ Tangofy does three simple things:
 
 *   Replaces the 16×16 menu icons in the administration area of WordPress 2.7 with better icons!  Choose an included set —1 Fugue set, 1 Silk set, 2 Tango sets— or use your own icons!
 *   Dispenses with Black & White icons.  All link states have full colour.
-*   Hides the 32×32 icons.
+*   Hides the 32×32 icons.  (Or shows them, if you prefer.)
 
 And it can speak any language you ask it to!  It already speaks English and Greek.  
 
