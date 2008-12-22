@@ -11,11 +11,15 @@ Better icons for the admin menu of WordPress 2.7:  select an included icon set (
 
 Tangofy does three simple things:
 
-*   Replaces the 16×16 menu icons in the administration area of WordPress 2.7 with better icons!  Choose an included set —1 Fugue set, 1 Silk set, 2 Tango sets— or use your own icons!
+*   Replaces the 16×16 menu icons in the administration area of WordPress 2.7 with better icons!  Either an included set —1 Fugue set, 1 Silk set, 2 Tango sets— or your own set!
 *   Dispenses with Black & White icons.  All link states have full colour.
 *   Hides the 32×32 icons.  (Or shows them, if you prefer.)
 
-And it can speak any language you ask it to!  It already speaks English and Greek.  
+And it can speak any language you ask it to!  It already speaks:
+
+*   English (default)
+*   Greek, by Demetris
+*   Spanish, by Federico Bond ([federicobond.com.ar](http://www.federicobond.com.ar/))
 
 The Tango icon sets use icons from four projects:  GIMP, GNOME, Pidgin and Tango.  Silk uses Silk Icons.  Fugue uses Fugue Icons.
 
@@ -46,13 +50,19 @@ Thank you for your interest in Tangofy!  [Your feedback is appreciated!](http://
 
 = What does “Tangofy” mean? =
 
-“To tangofy sth”, usually an application, means to make new icons for it, or to add icons to it, that follow the guidelines of the Tango Desktop Project.  The first versions of Tangofy —0.0.0 to 0.0.6— were just that:  One icon set that tangofied the admin menu of WordPress 2.7.  Hence the name.
+“To tangofy sth”, usually an application, means to make new icons for it, or to add icons to it, that follow the guidelines of the Tango Desktop Project.  The first versions of Tangofy —0.0.0 to 0.0.6— were just that:  One set of Tango-style to improve the admin menu of WordPress 2.7.  Hence the name.
 
 ==  Changelog ==
 .
+=   0.1.6   [2008-12-22] =
++   Added Spanish language, Federico Bond ([federicobond.com.ar](http://www.federicobond.com.ar/)).
++   Added proper style to Save Changes button, thanks Federico.
++   Moved Save Changes button to bottom, thanks Federico.
++   Added contact e-mail address to tangofy.php.
+
 =   0.1.5   [2008-12-17] =
 +   Added POT file for localization (see directory “languages”).
-+   Added Greek localization.
++   Added Greek language.
 +   Changed Pages icons in Tango 2.
 +   Changed 32×32 Users icon in Tango 2.
 +   Changed 32×32 Settings icon in Tango.
