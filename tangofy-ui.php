@@ -51,14 +51,15 @@ if ( !current_user_can('manage_options') ) {
 		<p class="setting-description">
 			<?php _e( 'The “Alt” option allows you to add your own icon set or to modify an included one.  Make a set, name it <kbd>menu-alt.png</kbd> and put it in <code>wp-content/plugins/tangofy/images</code>.  If there is no <kbd>menu-alt.png</kbd> in the directory <kbd>images</kbd>, “Alt” shows empty spaces for icons.&nbsp;:-)', 'tangofy' ); ?>
 		</p>
+		<p class="setting-description">
+			<?php _e('The Fugue set is a selection from <a href="http://www.pinvoke.com/" title="Homepage of Fugue Icons  [pinvoke.com]">Fugue Icons</a>.', 'tangofy') ?>
+			<?php _e('The Silk set is a selection from <a href="http://www.famfamfam.com/lab/icons/silk/" title="Homepage of Silk Icons  [famfamfam.com]">Silk Icons</a>.', 'tangofy') ?>
+			<?php _e('The Tango sets use icons by the Tango Project and by projects whose icons follow the Tango guidelines:  <a href="http://www.gimp.org/" title="The GNU Image Manipulation Program  [gimp.org]">GIMP</a>, <a href="http://www.gnome.org/" title="GNOME: The Free Software Desktop Project  [gnome.org]">GNOME</a>, <a href="http://pidgin.im/" title="Pidgin, a cross-platform instant messenger  [pidgin.im]">Pidgin</a> and <a href="http://tango.freedesktop.org/" title="Tango Desktop Project  [tango.freedesktop.org]">Tango</a>.', 'tangofy') ?>
+		</p>
 		<input type="hidden" name="action" value="update" />
 		<input type="hidden" name="page_options" value="tangofy_iconset" />
 		<p class="submit">
-			<input id="update" name="update" type="submit" value="<?php _e('Save changes', 'tangofy') ?>" accesskey="S" />
+			<input id="update" class="button-primary" name="update" type="submit" value="<?php _e('Save changes', 'tangofy') ?>" accesskey="S" />
 		</p>
 	</form>
-	<h3><?php _e( 'Links', 'tangofy' ) ?></h3>
-	<p><?php _e('The Fugue set is a selection from <a href="http://www.pinvoke.com/" title="Homepage of Fugue Icons  [pinvoke.com]">Fugue Icons</a>.', 'tangofy') ?></p>
-	<p><?php _e('The Silk set is a selection from <a href="http://www.famfamfam.com/lab/icons/silk/" title="Homepage of Silk Icons  [famfamfam.com]">Silk Icons</a>.', 'tangofy') ?></p>
-	<p><?php _e('The Tango sets use icons by the Tango Project and by projects whose icons follow the Tango guidelines:  <a href="http://www.gimp.org/" title="The GNU Image Manipulation Program  [gimp.org]">GIMP</a>, <a href="http://www.gnome.org/" title="GNOME: The Free Software Desktop Project  [gnome.org]">GNOME</a>, <a href="http://pidgin.im/" title="Pidgin, a cross-platform instant messenger  [pidgin.im]">Pidgin</a> and <a href="http://tango.freedesktop.org/" title="Tango Desktop Project  [tango.freedesktop.org]">Tango</a>.', 'tangofy') ?></p>
 </div>

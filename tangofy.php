@@ -5,44 +5,32 @@
 Plugin Name:    Tangofy
 Plugin URI:     http://op111.net/p65
 Description:    Better icons for the admin menu of WordPress 2.7:  Select an included icon set (Fugue, Silk, Tango, Tango 2) or add your own!
-Version:        0.1.5
+Version:        0.1.6
 Author:         Demetris
 Author URI:     http://op111.net/
 
+Contact:        op111.net@gmail.com
 Licence:        http://www.gnu.org/licenses/gpl-2.0.html
 
-FUGUE ICONS
-Source:         http://www.pinvoke.com/
-Licence:        http://creativecommons.org/licenses/by/3.0/
-
-GIMP ICONS
-Source:         http://gimp.org/
-Licence:        http://www.gnu.org/licenses/gpl-2.0.html
-
-GNOME ICONS
-Source:         http://ftp.gnome.org/pub/GNOME/desktop/
-Licence:        http://www.gnu.org/licenses/gpl-2.0.html
-
-PIDGIN ICONS
-Source:         http://pidgin.im/
-Licence:        http://www.gnu.org/licenses/gpl-2.0.html
-
-SILK ICONS
-Source:         http://www.famfamfam.com/lab/icons/silk/
-Licence:        http://creativecommons.org/licenses/by/2.5/
-
-TANGO ICONS
-Source:         http://tango.freedesktop.org/
-Licence:        http://creativecommons.org/licenses/by-sa/2.5/
+Fugue Icons:    http://www.pinvoke.com/
+                http://creativecommons.org/licenses/by/3.0/
+GIMP Icons:     http://gimp.org/
+                http://www.gnu.org/licenses/gpl-2.0.html
+GNOME Icons:    http://ftp.gnome.org/pub/GNOME/desktop/
+                http://www.gnu.org/licenses/gpl-2.0.html
+Pidgin Icons:   http://pidgin.im/
+                http://www.gnu.org/licenses/gpl-2.0.html
+Silk Icons:     http://www.famfamfam.com/lab/icons/silk/
+                http://creativecommons.org/licenses/by/2.5/
+Tango Icons:    http://tango.freedesktop.org/
+                http://creativecommons.org/licenses/by-sa/2.5/
 
 ------------------------------------------------------------------------------
 TO DO
-
 +   Replace generic.png (see: wp-admin/includes/plugin.php).
 +   Add more options to Options.
 
 DONE
-
 +   Add options page. (v. 0.1.0, 2008-12-05)
 
 */
