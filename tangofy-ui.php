@@ -29,8 +29,9 @@ if ( !current_user_can('manage_options') ) {
 								'tango-max' => __('Tango Max', 'tangofy'),
 								'tango2' => __('Tango 2', 'tangofy'),
 								'tango2-max' => __('Tango 2 Max&nbsp;', 'tangofy'),
-								'silk'  => __('Silk', 'tangofy'),
+								'silk' => __('Silk', 'tangofy'),
 								'fugue' => __('Fugue', 'tangofy'),
+								'fugue-shadowless' => __('Fugue Shadowless&nbsp;', 'tangofy'),
 								'alt' => __('Alt', 'tangofy'),
 							);
 							foreach ( $iconsets as $iconset => $name ) {
