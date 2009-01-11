@@ -15,14 +15,15 @@ Tangofy does three simple things:
 *   Dispenses with Black & White icons.  All link states have full colour.
 *   Hides the 32×32 icons.  (Or shows them, if you prefer.)
 
-And it can speak any language you ask it to!  It already speaks:
+And is also a promising polyglot!  It already speaks:
 
 *   English (default)
 *   Greek
-*   Portuguese (Brazilian), by Fernando Lopes ([fernandolopes.com.br](http://www.fernandolopes.com.br/))
-*   Spanish, by Federico Bond ([federicobond.com.ar](http://www.federicobond.com.ar/))
+*   Polish, courtesy of x600.
+*   Portuguese (Brazilian), courtesy of Fernando Lopes ([fernandolopes.com.br](http://www.fernandolopes.com.br/))
+*   Spanish, courtesy of Federico Bond ([federicobond.com.ar](http://www.federicobond.com.ar/))
 
-The Tango icon sets use icons from four projects:  GIMP, GNOME, Pidgin and Tango.  Silk uses Silk Icons.  Fugue uses Fugue Icons.
+The Tango sets use icons from four projects:  GIMP, GNOME, Pidgin and Tango.  Silk uses Silk Icons.  Fugue uses Fugue Icons.
 
 *   [ftp.gnome.org/pub/GNOME/desktop](http://ftp.gnome.org/pub/GNOME/desktop/)
 *   [gimp.org](http://gimp.org/)
@@ -42,8 +43,8 @@ Tangofy by Demetris Kikizas and Josh Wood is published under the GNU General Pub
 
 1.  Download the ZIP archive
 2.  Extract the `tangofy` folder and upload it to `wp-contents/plugins`
-3.  Activate Tangofy in *Dashboard > Plugins*
-4.  Go to *Dashboard > Settings > Tangofy* to have a look at the options!
+3.  Activate Tangofy in Dashboard › Plugins
+4.  Go to Dashboard › Settings › Tangofy, to have a look at the options!
 
 Thank you for your interest in Tangofy!  [Your feedback is appreciated!](http://op111.net/p65 "Homepage of Tangofy at op111.net") — δκ
 
@@ -51,10 +52,18 @@ Thank you for your interest in Tangofy!  [Your feedback is appreciated!](http://
 
 = What does “Tangofy” mean? =
 
-“To tangofy sth”, usually an application, means to make new icons for it, or to add icons to it, that follow the guidelines of the Tango Desktop Project.  The first versions of Tangofy —0.0.0 to 0.0.6— were just that:  One set of Tango-style icons to improve the admin menu of WordPress 2.7.  Hence the name.
+“To tangofy something”, usually an application, means to make new icons for it, or to add icons to it, that follow the guidelines of the Tango Desktop Project.  The first versions of Tangofy —0.0.0 to 0.0.6— were just that:  One set of Tango-style icons to improve the admin menu of WordPress 2.7.  Hence the name.
 
 ==  Changelog ==
 .
+=   0.1.8   [2009-01-11] =
++   Added Polish language.  x600.
++   Added function `screen_icon()` to display 32×32 icon in Tangofy’s settings.
++   Updated several Fugue icons to reflect changes up to Fugue v. 1.2.
++   Changed Links icons in Fugue sets.
++   Changed Users icons and 32×32 Settings icon in Tango.
++   Changed Media icons, Pages icons and 32×32 Settings icon in Tango 2.
+
 =   0.1.7   [2008-12-25] =
 +   Added Brazilian Portuguese language.  Fernando Lopes ([fernandolopes.com.br](http://www.fernandolopes.com.br/)).
 +   Added Fugue Shadowless set.  (New in Fugue 1.0.2, released 2008-12-21.)
@@ -69,8 +78,7 @@ Thank you for your interest in Tangofy!  [Your feedback is appreciated!](http://
 =   0.1.5   [2008-12-17] =
 +   Added POT file for localization (see directory “languages”).
 +   Added Greek language.
-+   Changed Pages icons in Tango 2.
-+   Changed 32×32 Users icon in Tango 2.
++   Changed Pages icons and 32×32 Users icon in Tango 2.
 +   Changed 32×32 Settings icon in Tango.
 +   Added FAQ.
 

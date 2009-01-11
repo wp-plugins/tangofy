@@ -1,0 +1,128 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Demetris
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1.7\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/tangofy\n"
+"POT-Creation-Date: 2008-12-17 13:08+0000\n"
+"PO-Revision-Date: 2008-12-25 20:10+0100\n"
+"Last-Translator: \n"
+"Language-Team: Polish <ospiotr@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Polish\n"
+
+#: tangofy-ui.php:5
+msgid "Permission denied"
+msgstr "Brak uprawnień"
+
+#: tangofy-ui.php:10
+msgid "Your changes were saved. <a href=\"./options-general.php?page=tangofy/tangofy-ui.php\" title=\"Click to reload the page and see your changes!\"><em>Reload this page to see them!</em></a>"
+msgstr "Zapisano zmiany. <a href=\"./options-general.php?page=tangofy/tangofy-ui.php\" title=\"Odśwież stronę, by je zobaczyć!\"><em>Odśwież stronę, by je zobaczyć!</em></a>"
+
+#: tangofy-ui.php:15
+#: tangofy.php:65
+msgid "Tangofy!"
+msgstr "Tangofy!"
+
+#: tangofy-ui.php:18
+#: tangofy.php:65
+msgid "Tangofy Options"
+msgstr "Ustawienia Tangofy"
+
+#: tangofy-ui.php:19
+msgid "Icon Options"
+msgstr "Ustawienia ikon"
+
+#: tangofy-ui.php:21
+msgid "Admin menu icons"
+msgstr "Ikony menu administracyjnego"
+
+#: tangofy-ui.php:24
+msgid "Icon Set"
+msgstr "Zestaw ikon"
+
+#: tangofy-ui.php:28
+msgid "Tango"
+msgstr "Tango"
+
+#: tangofy-ui.php:29
+msgid "Tango Max"
+msgstr "Tango Max"
+
+#: tangofy-ui.php:30
+msgid "Tango 2"
+msgstr "Tango 2"
+
+#: tangofy-ui.php:31
+msgid "Tango 2 Max&nbsp;"
+msgstr "Tango 2 Max&nbsp;"
+
+#: tangofy-ui.php:32
+msgid "Silk"
+msgstr "Silk"
+
+#: tangofy-ui.php:33
+msgid "Fugue"
+msgstr "Fugue"
+
+#: tangofy-ui.php:34
+msgid "Alt"
+msgstr "Alt"
+
+#: tangofy-ui.php:49
+msgid "The “Max” variations also display 32&times;32 icons next to page headings.  (The basic variations hide 32&times;32 icons.)"
+msgstr "Opcja \"Max\" dodatkowo wyświetla ikony wielkości 32&times;32 obok nagłówka strony w panelu administracyjnym."
+
+#: tangofy-ui.php:52
+msgid "The “Alt” option allows you to add your own icon set or to modify an included one.  Make a set, name it <kbd>menu-alt.png</kbd> and put it in <code>wp-content/plugins/tangofy/images</code>.  If there is no <kbd>menu-alt.png</kbd> in the directory <kbd>images</kbd>, “Alt” shows empty spaces for icons.&nbsp;:-)"
+msgstr "Opcja \"Alt\" pozwala na dodawanie własnych zestawów ikon i edytowania istniejących. Stwórz zestaw, nazwij go <kbd>menu-alt.png</kbd> i prześlij do folderu <code>wp-content/plugins/tangofy/images</code>. Jeśli plik <kbd>menu-alt.png</kbd> nie istnieje, opcja \"Alt\" zamiast ikon wyświetli puste pola.&nbsp;:-)"
+
+#: tangofy-ui.php:57
+msgid "Save changes"
+msgstr "Zapisz zmiany"
+
+#: tangofy-ui.php:60
+msgid "Links"
+msgstr "Linki"
+
+#: tangofy-ui.php:61
+msgid "The Fugue set is a selection from <a href=\"http://www.pinvoke.com/\" title=\"Homepage of Fugue Icons  [pinvoke.com]\">Fugue Icons</a>."
+msgstr "Zestaw Fugue został stworzony na podstawie <a href=\"http://www.pinvoke.com/\" title=\"Strona ikon Fugue [pinvoke.com]\">ikon Fugue</a>."
+
+#: tangofy-ui.php:62
+msgid "The Silk set is a selection from <a href=\"http://www.famfamfam.com/lab/icons/silk/\" title=\"Homepage of Silk Icons  [famfamfam.com]\">Silk Icons</a>."
+msgstr "Zestaw Silk został stworzony na podstawie <a href=\"http://www.pinvoke.com/\" title=\"Strona ikon Silk [famfamfam.com]\">ikon Silk</a>."
+
+#: tangofy-ui.php:63
+msgid "The Tango sets use icons by the Tango Project and by projects whose icons follow the Tango guidelines:  <a href=\"http://www.gimp.org/\" title=\"The GNU Image Manipulation Program  [gimp.org]\">GIMP</a>, <a href=\"http://www.gnome.org/\" title=\"GNOME: The Free Software Desktop Project  [gnome.org]\">GNOME</a>, <a href=\"http://pidgin.im/\" title=\"Pidgin, a cross-platform instant messenger  [pidgin.im]\">Pidgin</a> and <a href=\"http://tango.freedesktop.org/\" title=\"Tango Desktop Project  [tango.freedesktop.org]\">Tango</a>."
+msgstr "Zestawy Tango zostały stworzone na podstawie Projektu Tango i innych zestawów z nim powiązanych:  <a href=\"http://www.gimp.org/\" title=\"The GNU Image Manipulation Program  [gimp.org]\">GIMP</a>, <a href=\"http://www.gnome.org/\" title=\"GNOME: The Free Software Desktop Project  [gnome.org]\">GNOME</a>, <a href=\"http://pidgin.im/\" title=\"Pidgin, a cross-platform instant messenger  [pidgin.im]\">Pidgin</a> and <a href=\"http://tango.freedesktop.org/\" title=\"Tango Desktop Project  [tango.freedesktop.org]\">Tango</a>."
+
+#: tangofy.php:73
+msgid "Settings"
+msgstr "Ustawienia"
+
+#. Plugin Name of an extension
+msgid "Tangofy"
+msgstr "Tangofy"
+
+#. Plugin URI of an extension
+msgid "http://op111.net/p65"
+msgstr "http://op111.net/p65"
+
+#. Description of an extension
+msgid "Better icons for the admin menu of WordPress 2.7:  Select an included icon set (Fugue, Silk, Tango, Tango 2) or add your own!"
+msgstr "Ładniejsze ikony w menu Wordpressa 2.7: Wybierz zestaw ikon (Fugue, Silk, Tango, Tango 2) albo dodaj własny!"
+
+#. Author of an extension
+msgid "Demetris"
+msgstr "Demetris"
+
+#. Author URI of an extension
+msgid "http://op111.net/"
+msgstr "http://op111.net/"
+
