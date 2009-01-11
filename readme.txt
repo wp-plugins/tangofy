@@ -32,7 +32,7 @@ The Tango sets use icons from four projects:  GIMP, GNOME, Pidgin and Tango.  Si
 *   [www.famfamfam.com/lab/icons/silk](http://www.famfamfam.com/lab/icons/silk/) (Silk Icons)
 *   [www.pinvoke.com](http://www.pinvoke.com/) (Fugue Icons)
 
-Tangofy by Demetris Kikizas and Josh Wood is published under the GNU General Public Licence, as are the GIMP, GNOME and Pidgin icons.  Icons from the Tango Base Library are published under the Creative Commons Attribution-Share Alike 2.5 licence.  Silk Icons are under the Creative Commons Attribution 2.5 licence.  Fugue Icons are under the Creative Commons Attribution 3.0 licence.
+Tangofy by [Demetris Kikizas](http://op111.net/ "Τα πάντα για τα πάντα  [op111.net]") and [Josh Wood](http://joshix.com/ "Personal homepage of Josh Wood  [joshix.com]") is published under the GNU General Public Licence, as are the GIMP, GNOME and Pidgin icons.  Icons from the Tango Base Library are published under the Creative Commons Attribution-Share Alike 2.5 licence.  Silk Icons are under the Creative Commons Attribution 2.5 licence.  Fugue Icons are under the Creative Commons Attribution 3.0 licence.
 
 *   [creativecommons.org/licenses/by/2.5](http://creativecommons.org/licenses/by/2.5/)
 *   [creativecommons.org/licenses/by/3.0](http://creativecommons.org/licenses/by/3.0/)
