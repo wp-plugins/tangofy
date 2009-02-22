@@ -11,7 +11,7 @@ Better icons for the admin menu of WordPress 2.7:  select an included icon set (
 
 Tangofy does three simple things:
 
-*   Replaces the 16×16 menu icons in the administration area of WordPress 2.7 with better icons!  Either an included set —2 Fugue sets, 1 Silk set, 2 Tango sets— or your own set!
+*   Replaces the 16×16 menu icons in the administration area of WordPress 2.7 with better icons!  Either an included set—2 Fugue sets, 1 Silk, 2 Tango—or your own set!
 *   Dispenses with Black & White icons.  All link states have full colour.
 *   Hides the 32×32 icons.  (Or shows them, if you prefer.)
 
@@ -23,7 +23,7 @@ And is also a promising polyglot!  It already speaks:
 *   Portuguese (Brazilian), courtesy of Fernando Lopes ([fernandolopes.com.br](http://www.fernandolopes.com.br/))
 *   Spanish, courtesy of Federico Bond ([federicobond.com.ar](http://www.federicobond.com.ar/))
 
-The Tango sets use icons from four projects:  GIMP, GNOME, Pidgin and Tango.  Silk uses Silk Icons.  Fugue uses Fugue Icons.
+The Tango sets use icons from 4 projects:  GIMP, GNOME, Pidgin and Tango.  Silk uses Silk Icons.  Fugue uses Fugue Icons.
 
 *   [ftp.gnome.org/pub/GNOME/desktop](http://ftp.gnome.org/pub/GNOME/desktop/)
 *   [gimp.org](http://gimp.org/)
@@ -32,12 +32,7 @@ The Tango sets use icons from four projects:  GIMP, GNOME, Pidgin and Tango.  Si
 *   [www.famfamfam.com/lab/icons/silk](http://www.famfamfam.com/lab/icons/silk/) (Silk Icons)
 *   [www.pinvoke.com](http://www.pinvoke.com/) (Fugue Icons)
 
-Tangofy by [Demetris Kikizas](http://op111.net/ "Τα πάντα για τα πάντα  [op111.net]") and [Josh Wood](http://joshix.com/ "Personal homepage of Josh Wood  [joshix.com]") is published under the GNU General Public Licence, as are the GIMP, GNOME and Pidgin icons.  Icons from the Tango Base Library are published under the Creative Commons Attribution-Share Alike 2.5 licence.  Silk Icons are under the Creative Commons Attribution 2.5 licence.  Fugue Icons are under the Creative Commons Attribution 3.0 licence.
-
-*   [creativecommons.org/licenses/by/2.5](http://creativecommons.org/licenses/by/2.5/)
-*   [creativecommons.org/licenses/by/3.0](http://creativecommons.org/licenses/by/3.0/)
-*   [creativecommons.org/licenses/by-sa/2.5](http://creativecommons.org/licenses/by-sa/2.5/)
-*   [www.gnu.org/licenses/gpl-2.0.html](http://www.gnu.org/licenses/gpl-2.0.html)
+Tangofy by [Demetris Kikizas](http://op111.net/ "Τα πάντα για τα πάντα  [op111.net]") and [Josh Wood](http://joshix.com/ "Personal homepage of Josh Wood  [joshix.com]") is published under the [GNU General Public Licence](http://www.gnu.org/licenses/gpl-2.0.html), as are the GIMP, GNOME and Pidgin icons.  Icons from the Tango Base Library are published under the [Creative Commons Attribution-Share Alike 2.5](http://creativecommons.org/licenses/by-sa/2.5/) licence.  Silk Icons are under the [Creative Commons Attribution 2.5](http://creativecommons.org/licenses/by/2.5/) licence.  Fugue Icons are under the [Creative Commons Attribution 3.0](http://creativecommons.org/licenses/by/3.0/) licence.
 
 ==  Installation ==
 
@@ -56,6 +51,13 @@ Thank you for your interest in Tangofy!  [Your feedback is appreciated!](http://
 
 ==  Changelog ==
 .
+=   0.1.9   [2009-02-22] =
++   Added Text Domain to header for recognition of localized header info.
++   Updated Plugin URI: <http://op111.net/65>
++   Changed Links icon in Fugue Shadowless (Compass, new in Fugue 1.4.4).
++   Changed Comments icon in Fugue Shadowless (Balloon/Twitter modified).
++   Changed Pages icon in Fugue Shadowless (Notebooks modified).
+
 =   0.1.8   [2009-01-11] =
 +   Added Polish language.  x600.
 +   Added function `screen_icon()` to display 32×32 icon in Tangofy’s settings.
