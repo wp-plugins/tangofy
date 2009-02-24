@@ -37,11 +37,11 @@ Tangofy by [Demetris Kikizas](http://op111.net/ "Τα πάντα για τα π�
 ==  Installation ==
 
 1.  Download the ZIP archive
-2.  Extract the `tangofy` folder and upload it to `wp-contents/plugins`
+2.  Extract the `tangofy` folder and upload it to `wp-content/plugins`
 3.  Activate Tangofy in Dashboard › Plugins
 4.  Go to Dashboard › Settings › Tangofy, to have a look at the options!
 
-Thank you for your interest in Tangofy!  [Your feedback is appreciated!](http://op111.net/p65 "Homepage of Tangofy at op111.net") — δκ
+Thank you for your interest in Tangofy!  [Your feedback is appreciated!](http://op111.net/65 "Homepage of Tangofy at op111.net") — δκ
 
 == Frequently Asked Questions ==
 
