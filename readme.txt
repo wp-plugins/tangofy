@@ -43,6 +43,7 @@ Tangofy by [Demetris Kikizas](http://op111.net/ "Everything about anything. Or, 
 4.  Click Activate Plugin
 5.  Go to Dashboard › Settings › Tangofy, to select the set that works best for you
 6.  Enjoy!
+7.  [Vote for Tangofy](http://wordpress.org/extend/plugins/tangofy/ "Vote for Tangofy at the official WordPress directory! [wordpress.org]")!
 
 Alternatively, to install manually:
 
@@ -51,6 +52,7 @@ Alternatively, to install manually:
 3.  Activate Tangofy in Dashboard › Plugins
 4.  Go to Dashboard › Settings › Tangofy, to select the set that works best for you
 5.  Enjoy!
+6.  [Vote for Tangofy](http://wordpress.org/extend/plugins/tangofy/ "Vote for Tangofy at the official WordPress directory! [wordpress.org]")!
 
 Thank you for your interest in Tangofy!  [Your feedback is appreciated!](http://op111.net/65 "Homepage of Tangofy at op111.net [op111.net]") — δκ
 
