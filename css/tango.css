@@ -1,6 +1,6 @@
 
-/*  TANGOFY MENU ICONS */
-/*  Copied from the WP stylesheet, replaced PNG URL */
+/*--TANGOFY MENU ICONS
+    Copied from the WP stylesheet, replaced PNG URL---------------------------*/
 
 #adminmenu #menu-dashboard div.wp-menu-image {
     background: transparent url("../images/menu-tango.png") no-repeat scroll -61px -33px;
@@ -82,14 +82,14 @@
     background: transparent url("../images/menu-tango.png") no-repeat scroll -241px -1px;
     }
 
-/*  HIDE LARGE ICONS */
+/*--HIDE LARGE ICONS----------------------------------------------------------*/
 
 .icon32 {
     display: none;
     }
 
-/*  TANGOFY LIST/EXCERPTS VIEW ICONS*/
-    
+/*--TANGOFY LIST/EXCERPTS VIEW ICONS------------------------------------------*/
+
 .view-switch #view-switch-list {
     background: transparent url(../images/list-tango.png) no-repeat 0 0;
     }
@@ -102,5 +102,3 @@
 .view-switch #view-switch-excerpt.current {
     background: transparent url(../images/list-tango.png) no-repeat -60px 0;
     }
-
-/*  EXTRA STUFF */

@@ -2,26 +2,27 @@
 CONTRIBUTORS: demetris, joshix
 TAGS: 2.7, admin, colour, famfamfam, fugue, gnome, icons, menu, op111.net, silk, tango
 REQUIRES AT LEAST: 2.7
-TESTED UP TO: 2.7
+TESTED UP TO: 2.8
 STABLE TAG: trunk
 
 Better icons for the admin menu of WordPress 2.7:  select an included icon set (Fugue, Silk, Tango, Tango 2) or add your own!
 
 ==  Description ==
 
-Tangofy does three simple things:
+Tangofy does three things:
 
-*   Replaces the 16×16 menu icons in the administration area of WordPress 2.7 with better icons!  Either an included set—2 Fugue sets, 1 Silk, 2 Tango—or your own set!
+*   Replaces the menu icons in the administration area of WordPress 2.7 with better, *more helpful* icons.  Either an included set—2 Fugue sets, 1 Silk, 2 Tango—or your own!
 *   Dispenses with Black & White icons.  All link states have full colour.
-*   Hides the 32×32 icons.  (Or shows them, if you prefer.)
+*   Hides the large 32×32 icons.  (Or shows them, if you prefer.)
 
-And is also a promising polyglot!  It already speaks:
+And speaks six languages:
 
 *   English (default)
-*   Greek
-*   Polish, courtesy of x600.
-*   Portuguese (Brazilian), courtesy of Fernando Lopes ([fernandolopes.com.br](http://www.fernandolopes.com.br/))
-*   Spanish, courtesy of Federico Bond ([federicobond.com.ar](http://www.federicobond.com.ar/))
+*   Greek, by Demetris
+*   Polish, by x600.
+*   Portuguese (Brazilian), by Fernando Lopes ([fernandolopes.com.br](http://www.fernandolopes.com.br/))
+*   Spanish, by Federico Bond ([federicobond.com.ar](http://www.federicobond.com.ar/))
+*   Turkish, by Semih Aksu ([wpuzmani.com](http://www.wpuzmani.com/))
 
 The Tango sets use icons from 4 projects:  GIMP, GNOME, Pidgin and Tango.  Silk uses Silk Icons.  Fugue uses Fugue Icons.
 
@@ -32,25 +33,38 @@ The Tango sets use icons from 4 projects:  GIMP, GNOME, Pidgin and Tango.  Silk 
 *   [www.famfamfam.com/lab/icons/silk](http://www.famfamfam.com/lab/icons/silk/) (Silk Icons)
 *   [www.pinvoke.com](http://www.pinvoke.com/) (Fugue Icons)
 
-Tangofy by [Demetris Kikizas](http://op111.net/ "Τα πάντα για τα πάντα  [op111.net]") and [Josh Wood](http://joshix.com/ "Personal homepage of Josh Wood  [joshix.com]") is published under the [GNU General Public Licence](http://www.gnu.org/licenses/gpl-2.0.html), as are the GIMP, GNOME and Pidgin icons.  Icons from the Tango Base Library are published under the [Creative Commons Attribution-Share Alike 2.5](http://creativecommons.org/licenses/by-sa/2.5/) licence.  Silk Icons are under the [Creative Commons Attribution 2.5](http://creativecommons.org/licenses/by/2.5/) licence.  Fugue Icons are under the [Creative Commons Attribution 3.0](http://creativecommons.org/licenses/by/3.0/) licence.
+Tangofy by [Demetris Kikizas](http://op111.net/ "Everything about anything. Or, a website about technology, the Web and web publishing  [op111.net]") and [Josh Wood](http://joshix.com/ "Personal homepage of Josh Wood  [joshix.com]") is published under the [GNU General Public Licence](http://www.gnu.org/licenses/gpl-2.0.html), as are the GIMP, GNOME and Pidgin icons.  Icons from the Tango Base Library are published under the [Creative Commons Attribution-Share Alike 2.5](http://creativecommons.org/licenses/by-sa/2.5/) licence.  Silk Icons are under the [Creative Commons Attribution 2.5](http://creativecommons.org/licenses/by/2.5/) licence.  Fugue Icons are under the [Creative Commons Attribution 3.0](http://creativecommons.org/licenses/by/3.0/) licence.
 
 ==  Installation ==
 
-1.  Download the ZIP archive
-2.  Extract the `tangofy` folder and upload it to `wp-content/plugins`
-3.  Activate Tangofy in Dashboard › Plugins
-4.  Go to Dashboard › Settings › Tangofy, to have a look at the options!
+1.  Go to Dashboard › Plugins › Add New
+2.  Type *Tangofy* in the search box and hit Search
+3.  Click Install
+4.  Click Activate Plugin
+5.  Go to Dashboard › Settings › Tangofy, to select the set that works best for you
+6.  Enjoy!
 
-Thank you for your interest in Tangofy!  [Your feedback is appreciated!](http://op111.net/65 "Homepage of Tangofy at op111.net") — δκ
+Alternatively, to install manually:
+
+1.  Download the ZIP archive
+2.  Extract the *tangofy* folder and upload it to *wp-content/plugins*
+3.  Activate Tangofy in Dashboard › Plugins
+4.  Go to Dashboard › Settings › Tangofy, to select the set that works best for you
+5.  Enjoy!
+
+Thank you for your interest in Tangofy!  [Your feedback is appreciated!](http://op111.net/65 "Homepage of Tangofy at op111.net [op111.net]") — δκ
 
 == Frequently Asked Questions ==
 
 = What does “Tangofy” mean? =
 
-“To tangofy something”, usually an application, means to make new icons for it, or to add icons to it, that follow the guidelines of the Tango Desktop Project.  The first versions of Tangofy —0.0.0 to 0.0.6— were just that:  One set of Tango-style icons to improve the admin menu of WordPress 2.7.  Hence the name.
+“To tangofy something”, usually an application, means to make new icons for it, or to add icons to it, that follow the guidelines of the Tango Desktop Project.  The first versions of Tangofy —0.0.0 up to 0.0.6— were just that:  One set of Tango-style icons to improve the admin menu of WordPress 2.7.  Hence the name.
 
 ==  Changelog ==
 .
+=   0.2.0   [2009-04-12] =
++   Added Turkish language.  Semih Aksu ([wpuzmani.com](http://www.wpuzmani.com/)).
+
 =   0.1.9   [2009-02-22] =
 +   Added Text Domain to header for recognition of localized header info.
 +   Updated Plugin URI: <http://op111.net/65>
