@@ -153,4 +153,4 @@ Thank you for your interest in Tangofy!  [Your feedback is appreciated!](http://
 
 ==  Screenshots ==
 
-Please, visit the plugin’s homepage for screenshots:  [op111.net/p65](http://op111.net/p65 "Tangofy — Better icons for WordPress 2.7")
+Please, visit the plugin’s homepage for screenshots:  [op111.net/65](http://op111.net/65 "Tangofy — Better icons for WordPress 2.7 and 2.8")
