@@ -9,22 +9,13 @@ Better icons for the admin menu of WordPress 2.7:  select an included icon set (
 
 ==  Description ==
 
-Tangofy does three things:
+Tangofy does 3 things:
 
 *   Replaces the menu icons in the administration area of WordPress 2.7 with better, *more helpful* icons.  Either an included set—2 Fugue sets, 1 Silk, 2 Tango—or your own!
 *   Dispenses with Black & White icons.  All link states have full colour.
 *   Hides the large 32×32 icons.  (Or shows them, if you prefer.)
 
-And speaks six languages:
-
-*   English (default)
-*   Greek, by Demetris
-*   Polish, by x600.
-*   Portuguese (Brazilian), by Fernando Lopes ([fernandolopes.com.br](http://www.fernandolopes.com.br/))
-*   Spanish, by Federico Bond ([federicobond.com.ar](http://www.federicobond.com.ar/))
-*   Turkish, by Semih Aksu ([wpuzmani.com](http://www.wpuzmani.com/))
-
-The Tango sets use icons from 4 projects:  GIMP, GNOME, Pidgin and Tango.  Silk uses Silk Icons.  Fugue uses Fugue Icons.
+The Tango sets use icons from 4 different projects:  GIMP, GNOME, Pidgin and Tango.  Silk uses Silk Icons.  Fugue uses Fugue Icons.
 
 *   [ftp.gnome.org/pub/GNOME/desktop](http://ftp.gnome.org/pub/GNOME/desktop/)
 *   [gimp.org](http://gimp.org/)
@@ -32,6 +23,15 @@ The Tango sets use icons from 4 projects:  GIMP, GNOME, Pidgin and Tango.  Silk 
 *   [tango.freedesktop.org](http://tango.freedesktop.org/)
 *   [www.famfamfam.com/lab/icons/silk](http://www.famfamfam.com/lab/icons/silk/) (Silk Icons)
 *   [www.pinvoke.com](http://www.pinvoke.com/) (Fugue Icons)
+
+Tangofy speaks 6 languages:
+
+*   English (default)
+*   Greek (by Demetris)
+*   Polish (by x600)
+*   Portuguese (Brazilian) (by [Fernando Lopes](http://www.fernandolopes.com.br/ "[fernandolopes.com.br]"))
+*   Spanish (by [Federico Bond](http://www.federicobond.com.ar/ "[federicobond.com.ar]"))
+*   Turkish (by [Semih Aksu](http://www.wpuzmani.com/ "[wpuzmani.com]"))
 
 Tangofy by [Demetris Kikizas](http://op111.net/ "Everything about anything. Or, a website about technology, the Web and web publishing  [op111.net]") and [Josh Wood](http://joshix.com/ "Personal homepage of Josh Wood  [joshix.com]") is published under the [GNU General Public Licence](http://www.gnu.org/licenses/gpl-2.0.html), as are the GIMP, GNOME and Pidgin icons.  Icons from the Tango Base Library are published under the [Creative Commons Attribution-Share Alike 2.5](http://creativecommons.org/licenses/by-sa/2.5/) licence.  Silk Icons are under the [Creative Commons Attribution 2.5](http://creativecommons.org/licenses/by/2.5/) licence.  Fugue Icons are under the [Creative Commons Attribution 3.0](http://creativecommons.org/licenses/by/3.0/) licence.
 
